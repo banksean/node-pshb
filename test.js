@@ -11,7 +11,6 @@ var callbackPort = 4443;
 var subscriber = new pshb.Subscriber(callbackPort);
 subscriber.startCallbackServer(); // Start listening for subscription confirmation callbacks.
 
-var hubUri = url.parse("http://localhost:8086/subscribe");
 var topicUri = url.parse("http://localhost/foo"); // Dummy feed, created below.
 
 var feedEvents = subscriber.listen(topicUri);
