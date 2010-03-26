@@ -1,3 +1,6 @@
 [submodule "lib/sax-js"]
 	path = lib/sax-js
 	url = git://github.com/isaacs/sax-js.git
+[submodule "third_party/sax-js"]
+	path = third_party/sax-js
+	url = git://github.com/isaacs/sax-js.git
